@@ -745,8 +745,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "BACKSLASH",
-                    "label": "\\"
+                    "key": "QUOTE",
+                    "label": "'"
                 }
             }
         },
@@ -1031,15 +1031,15 @@
             }
         },
         {
-            "code": "0x29",
+            "code": "0x5C",
             "x": 54,
             "y": 16,
             "w": 4,
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "QUOTE",
-                    "label": "'"
+                    "key": "#:'#'",
+                    "label": "#"
                 }
             }
         },
