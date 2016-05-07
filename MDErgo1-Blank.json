@@ -293,8 +293,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "LSHIFT",
-                    "label": "L\u21d1"
+                    "key": "LCTRL",
+                    "label": "LCTRL"
                 }
             }
         },
@@ -308,6 +308,10 @@
                 "0": {
                     "key": "CONS:VOLUMEUP",
                     "label": "VOL+"
+                },
+                "1": {
+                    "key": "#:ledControl( 4, 15, 0 )",
+                    "label": "LED+"
                 }
             }
         },
@@ -321,6 +325,10 @@
                 "0": {
                     "key": "CONS:VOLUMEDOWN",
                     "label": "VOL-"
+                },
+                "1": {
+                    "key": "#:ledControl( 3, 15, 0 )",
+                    "label": "LED-"
                 }
             }
         },
@@ -410,8 +418,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "LCTRL",
-                    "label": "LCTRL"
+                    "key": "LSHIFT",
+                    "label": "L\u21d1"
                 }
             }
         },
@@ -730,7 +738,7 @@
             }
         },
         {
-            "code": "0x11",
+            "code": "U0x64",
             "x": 66,
             "y": 6,
             "w": 6,
@@ -831,8 +839,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "RSHIFT",
-                    "label": "R\u21d1"
+                    "key": "RCTRL",
+                    "label": "RCTRL"
                 }
             }
         },
@@ -846,6 +854,10 @@
                 "0": {
                     "key": "CONS:MUTE",
                     "label": "MUTE"
+                },
+                "1": {
+                    "key": "#:ledControl( 5, 0, 0 )",
+                    "label": "LED OFF"
                 }
             }
         },
@@ -948,8 +960,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "RCTRL",
-                    "label": "RCTRL"
+                    "key": "RSHIFT",
+                    "label": "R\u21d1"
                 }
             }
         },
@@ -1013,8 +1025,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "#:ledControl( 5, 0, 0 )",
-                    "label": "LED OFF"
+                    "key": "BACKTICK",
+                    "label": "`"
                 }
             }
         },
@@ -1026,8 +1038,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "#:ledControl( 3, 15, 0 )",
-                    "label": "LED-"
+                    "key": "QUOTE",
+                    "label": "'"
                 }
             }
         },
@@ -1039,8 +1051,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "#:ledControl( 4, 15, 0 )",
-                    "label": "LED+"
+                    "key": "BACKSLASH",
+                    "label": "\\"
                 }
             }
         },
