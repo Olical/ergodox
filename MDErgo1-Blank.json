@@ -475,8 +475,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "#:'#'",
-                    "label": "#"
+                    "key": "CONS:SCANNEXTTRACK",
+                    "label": "NEXT"
                 }
             }
         },
@@ -488,8 +488,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "#:'@'",
-                    "label": "@"
+                    "key": "CONS:SCANPREVIOUSTRACK",
+                    "label": "PREV"
                 }
             }
         },
@@ -501,8 +501,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "#:'~'",
-                    "label": "~"
+                    "key": "CAPSLOCK",
+                    "label": "CAPSLK"
                 }
             }
         },
@@ -1013,8 +1013,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "QUOTE",
-                    "label": "'"
+                    "key": "#:ledControl( 5, 0, 0 )",
+                    "label": "LED OFF"
                 }
             }
         },
@@ -1026,8 +1026,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "#:'%'",
-                    "label": "%"
+                    "key": "#:ledControl( 3, 15, 0 )",
+                    "label": "LED-"
                 }
             }
         },
@@ -1039,8 +1039,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "#:'&'",
-                    "label": "&"
+                    "key": "#:ledControl( 4, 15, 0 )",
+                    "label": "LED+"
                 }
             }
         },
