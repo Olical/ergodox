@@ -1,5 +1,10 @@
-Copy `layout.json` into the [configurator][] and download the built binaries from there.
+[kll][] files for my ergodox.
+
+ * `make bootstrap` to fetch the dependencies.
+ * `make compile` to build everything.
+ * `make flash-left` flashes the left hand.
+ * `make flash-right` flashes the right hand.
 
 ![layout](./layout.png)
 
-[configurator]: https://input.club/configurator-ergodox
+[kll]: https://github.com/kiibohd/kll

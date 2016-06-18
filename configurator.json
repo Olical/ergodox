@@ -1,4 +1,4 @@
-{
+
     "header": {
         "Name": "MDErgo1",
         "Layout": "Blank",
@@ -745,8 +745,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "QUOTE",
-                    "label": "'"
+                    "key": "BACKSLASH",
+                    "label": "\\"
                 }
             }
         },
@@ -1038,8 +1038,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "#:'#'",
-                    "label": "#"
+                    "key": "QUOTE",
+                    "label": "'"
                 }
             }
         },
