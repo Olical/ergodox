@@ -1,21 +1,24 @@
-.PHONY: bootstrap
-
-c = ./compiler
-in = ./layers
-out = ./out
+.PHONY: bootstrap clean compile flast-left flash-right
 
 bootstrap:
-	git clone git@github.com:kiibohd/kll.git compiler
+	sudo pacman -S --needed git cmake make python libusb ctags
+	git clone git@github.com:kiibohd/controller.git
+
+clean:
+	rm -r ./build
 
 compile:
-	$(c)/kll.py\
-		$(c)/layouts/mdergo1Overlay.kll\
-		--default $(in)/0.kll\
-		--partial $(in)/1.kll\
-		--backend kiibohd\
-		--templates\
-			$(c)/templates/kiibohdKeymap.h\
-			$(c)/templates/kiibohdDefs.h\
-		--outputs\
-			$(out)/generatedKeymap.h\
-			$(out)/kll_defs.h
+	mkdir -p ./build
+	cd ./build\
+		&& cmake\
+			-DCHIP=mk20dx128vlf5 -DScanModule=MD1 -DMacroModule=PartialMap\
+			-DOutputModule=pjrcUSB -DDebugModule=full -DBaseMap=defaultMap\
+			-DDefaultMap="md1Overlay stdFuncMap" -DPartialMaps="hhkbpro2"\
+			../controller\
+		&& make
+
+flash-left:
+	@echo noop
+
+flash-right:
+	@echo noop
