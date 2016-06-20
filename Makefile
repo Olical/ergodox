@@ -1,4 +1,4 @@
-.PHONY: bootstrap clean compile load
+.PHONY: bootstrap clean compile flash-left flash-right
 
 bootstrap:
 	sudo pacman -S --needed\
@@ -15,6 +15,8 @@ compile:
 	cp ./layers/*.kll ./Keyboards/ERGO-R
 	cd ./Keyboards && ./ergodox.bash
 
-load:
+flash-left:
 	cd ./Keyboards/ERGO-L && sudo ./load
+
+flash-right:
 	cd ./Keyboards/ERGO-R && sudo ./load
