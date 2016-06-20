@@ -1,3 +1,4 @@
-/Keyboards/build
+/Keyboards/ERGO-*
 /kll
 /tags
+compile_commands.json

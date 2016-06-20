@@ -13,7 +13,7 @@
 
 # Feel free to change the variables in this section to configure your keyboard
 
-BuildPath="build"
+BuildPath="ERGO-L"
 
 ## KLL Configuration ##
 
@@ -31,8 +31,8 @@ DefaultMap="mdergo1Overlay lcdFuncMap"
 # e.g.  PartialMaps[1]="layer1 layer1mod"
 #       PartialMaps[2]="layer2"
 #       PartialMaps[3]="layer3"
-PartialMaps[1]="layer-1"
-PartialMaps[2]="layer-2"
+PartialMaps[1]="layer-1 lcdFuncMap"
+PartialMaps[2]="layer-2 lcdFuncMap"
 
 
 
@@ -83,7 +83,7 @@ source cmake.bash
 
 # Feel free to change the variables in this section to configure your keyboard
 
-BuildPath="ICED-R"
+BuildPath="ERGO-R"
 
 ## KLL Configuration ##
 

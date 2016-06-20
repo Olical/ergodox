@@ -7,12 +7,14 @@ bootstrap:
 		arm-none-eabi-newlib dfu-util
 
 clean:
-	rm -rf ./Keyboards/build
+	rm -rf ./Keyboards/ERGO-{L,R}
 
 compile:
-	mkdir -p ./Keyboards/build
-	cp ./layers/*.kll ./Keyboards/build
+	mkdir -p ./Keyboards/ERGO-{L,R}
+	cp ./layers/*.kll ./Keyboards/ERGO-L
+	cp ./layers/*.kll ./Keyboards/ERGO-R
 	cd ./Keyboards && ./ergodox.bash
 
 load:
-	cd ./Keyboards/build/ && sudo ./load
+	cd ./Keyboards/ERGO-L && sudo ./load
+	cd ./Keyboards/ERGO-R && sudo ./load
