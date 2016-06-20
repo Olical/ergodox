@@ -5,17 +5,12 @@ bootstrap:
 	git clone git@github.com:kiibohd/controller.git
 
 clean:
-	rm -r ./build
+	rm -rf ./Keyboards/build
 
 compile:
-	mkdir -p ./build
-	cd ./build\
-		&& cmake\
-			-DCHIP=mk20dx128vlf5 -DScanModule=MD1 -DMacroModule=PartialMap\
-			-DOutputModule=pjrcUSB -DDebugModule=full -DBaseMap=defaultMap\
-			-DDefaultMap="md1Overlay stdFuncMap" -DPartialMaps="hhkbpro2"\
-			../controller\
-		&& make
+	mkdir -p ./Keyboards/build
+	cp ./layers/*.kll ./Keyboards/build
+	cd ./Keyboards && ./infinity.bash
 
 flash-left:
 	@echo noop
