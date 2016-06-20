@@ -58,7 +58,7 @@ U"U" : U"U";
 U"I" : U"I";
 U"O" : U"O";
 U"P" : U"P";
-U"RBRACE" : U"BACKSLASH";
+U"RBRACE" : U0x64;
 U"H" : U"H";
 U"J" : U"J";
 U"K" : U"K";
