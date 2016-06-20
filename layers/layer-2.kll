@@ -17,6 +17,7 @@ U"EQUALS" : flashMode();
 U"LALT" : ledControl( 4, 15, 0 );
 U"LCTRL" : ledControl( 3, 15, 0 );
 U"FUNCTION6" : U"F7";
+U"FUNCTION3" : U"RALT";
 U"6" : U"F8";
 U"7" : U"F9";
 U"8" : U"F10";
