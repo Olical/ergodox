@@ -30,7 +30,8 @@ DefaultMap="md1Overlay stdFuncMap"
 #       PartialMaps[2]="layer2"
 #       PartialMaps[3]="layer3"
 # PartialMaps[1]="hhkbpro2"
-PartialMaps[1]="hhkbpro2"
+PartialMaps[1]="layer-1"
+PartialMaps[1]="layer-2"
 
 
 

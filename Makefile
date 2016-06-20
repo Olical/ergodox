@@ -1,8 +1,10 @@
 .PHONY: bootstrap clean compile flast-left flash-right
 
 bootstrap:
-	sudo pacman -S --needed git cmake make python libusb ctags dfu-util
-	git clone git@github.com:kiibohd/controller.git
+	sudo pacman -S --needed\
+		git cmake make python libusb ctags\
+		arm-none-eabi-binutils arm-none-eabi-gcc\
+		arm-none-eabi-newlib dfu-util
 
 clean:
 	rm -rf ./Keyboards/build
