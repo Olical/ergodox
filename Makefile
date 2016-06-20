@@ -1,4 +1,4 @@
-.PHONY: bootstrap clean compile flast-left flash-right
+.PHONY: bootstrap clean compile load
 
 bootstrap:
 	sudo pacman -S --needed\
@@ -14,8 +14,5 @@ compile:
 	cp ./layers/*.kll ./Keyboards/build
 	cd ./Keyboards && ./infinity.bash
 
-flash-left:
-	@echo noop
-
-flash-right:
-	@echo noop
+load:
+	cd ./Keyboards/build/ && sudo ./load
