@@ -13,7 +13,7 @@
 
 # Feel free to change the variables in this section to configure your keyboard
 
-BuildPath="ICED-L"
+BuildPath="build"
 
 ## KLL Configuration ##
 
@@ -31,8 +31,8 @@ DefaultMap="mdergo1Overlay lcdFuncMap"
 # e.g.  PartialMaps[1]="layer1 layer1mod"
 #       PartialMaps[2]="layer2"
 #       PartialMaps[3]="layer3"
-PartialMaps[1]="iced_func"
-PartialMaps[2]="iced_numpad"
+PartialMaps[1]="layer-1"
+PartialMaps[2]="layer-2"
 
 
 

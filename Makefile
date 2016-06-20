@@ -12,7 +12,7 @@ clean:
 compile:
 	mkdir -p ./Keyboards/build
 	cp ./layers/*.kll ./Keyboards/build
-	cd ./Keyboards && ./infinity.bash
+	cd ./Keyboards && ./ergodox.bash
 
 load:
 	cd ./Keyboards/build/ && sudo ./load
