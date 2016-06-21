@@ -22,8 +22,8 @@
                     "label": "["
                 },
                 "1": {
-                    "key": "F6",
-                    "label": "F6"
+                    "key": "F11",
+                    "label": "F11"
                 }
             }
         },
@@ -215,8 +215,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "TAB",
-                    "label": "TAB"
+                    "key": "LSHIFT",
+                    "label": "L\u21d1"
                 }
             }
         },
@@ -418,8 +418,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "LSHIFT",
-                    "label": "L\u21d1"
+                    "key": "LGUI",
+                    "label": "LGUI"
                 }
             }
         },
@@ -483,8 +483,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "CONS:SCANNEXTTRACK",
-                    "label": "NEXT"
+                    "key": "EQUAL",
+                    "label": "="
                 }
             }
         },
@@ -496,8 +496,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "CONS:SCANPREVIOUSTRACK",
-                    "label": "PREV"
+                    "key": "MINUS",
+                    "label": "-"
                 }
             }
         },
@@ -509,8 +509,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "CAPSLOCK",
-                    "label": "CAPSLK"
+                    "key": "LALT",
+                    "label": "LALT"
                 }
             }
         },
@@ -522,8 +522,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "LGUI",
-                    "label": "LGUI"
+                    "key": "TAB",
+                    "label": "TAB"
                 }
             }
         },
@@ -552,8 +552,8 @@
                     "label": "]"
                 },
                 "1": {
-                    "key": "F7",
-                    "label": "F7"
+                    "key": "F12",
+                    "label": "F12"
                 }
             }
         },
@@ -569,8 +569,8 @@
                     "label": "6"
                 },
                 "1": {
-                    "key": "F8",
-                    "label": "F8"
+                    "key": "F6",
+                    "label": "F6"
                 }
             }
         },
@@ -586,8 +586,8 @@
                     "label": "7"
                 },
                 "1": {
-                    "key": "F9",
-                    "label": "F9"
+                    "key": "F7",
+                    "label": "F7"
                 }
             }
         },
@@ -603,8 +603,8 @@
                     "label": "8"
                 },
                 "1": {
-                    "key": "F10",
-                    "label": "F10"
+                    "key": "F8",
+                    "label": "F8"
                 }
             }
         },
@@ -620,8 +620,8 @@
                     "label": "9"
                 },
                 "1": {
-                    "key": "F11",
-                    "label": "F11"
+                    "key": "F9",
+                    "label": "F9"
                 }
             }
         },
@@ -633,12 +633,12 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "MINUS",
-                    "label": "-"
+                    "key": "0",
+                    "label": "0"
                 },
                 "1": {
-                    "key": "F12",
-                    "label": "F12"
+                    "key": "F10",
+                    "label": "F10"
                 }
             }
         },
@@ -650,8 +650,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "EQUAL",
-                    "label": "="
+                    "key": "ESCAPE",
+                    "label": "ESC"
                 },
                 "1": {
                     "key": "#:flashMode()",
@@ -745,8 +745,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "BACKSLASH",
-                    "label": "\\"
+                    "key": "RSHIFT",
+                    "label": "R\u21d1"
                 }
             }
         },
@@ -960,8 +960,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "RSHIFT",
-                    "label": "R\u21d1"
+                    "key": "RGUI",
+                    "label": "RGUI"
                 }
             }
         },
@@ -1064,8 +1064,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "RGUI",
-                    "label": "RGUI"
+                    "key": "BACKSLASH",
+                    "label": "\\"
                 }
             }
         },
