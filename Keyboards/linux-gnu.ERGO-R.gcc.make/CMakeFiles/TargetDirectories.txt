@@ -1,0 +1,11 @@
+/home/oliver/repos/ergodox/Keyboards/linux-gnu.ERGO-R.gcc.make/CMakeFiles/rebuild_cache.dir
+/home/oliver/repos/ergodox/Keyboards/linux-gnu.ERGO-R.gcc.make/CMakeFiles/DFUMessage.dir
+/home/oliver/repos/ergodox/Keyboards/linux-gnu.ERGO-R.gcc.make/CMakeFiles/kiibohd.dir
+/home/oliver/repos/ergodox/Keyboards/linux-gnu.ERGO-R.gcc.make/CMakeFiles/SizeAfter.dir
+/home/oliver/repos/ergodox/Keyboards/linux-gnu.ERGO-R.gcc.make/CMakeFiles/kll_debug.dir
+/home/oliver/repos/ergodox/Keyboards/linux-gnu.ERGO-R.gcc.make/CMakeFiles/kll_display.dir
+/home/oliver/repos/ergodox/Keyboards/linux-gnu.ERGO-R.gcc.make/CMakeFiles/kll_token.dir
+/home/oliver/repos/ergodox/Keyboards/linux-gnu.ERGO-R.gcc.make/CMakeFiles/kll_regen.dir
+/home/oliver/repos/ergodox/Keyboards/linux-gnu.ERGO-R.gcc.make/CMakeFiles/kll_final_display.dir
+/home/oliver/repos/ergodox/Keyboards/linux-gnu.ERGO-R.gcc.make/CMakeFiles/edit_cache.dir
+/home/oliver/repos/ergodox/Keyboards/linux-gnu.ERGO-R.gcc.make/CMakeFiles/kll_parser.dir

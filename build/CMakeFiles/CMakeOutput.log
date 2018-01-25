@@ -1,0 +1,134 @@
+The target system is: Generic -  - 
+The host system is: Linux - 4.14.10-1-ARCH - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/home/oliver/repos/ergodox/build/CMakeFiles/3.10.1/CompilerIdC/CMakeCCompilerId.o"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/oliver/repos/ergodox/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bf715/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bf715.dir/build.make CMakeFiles/cmTC_bf715.dir/build
+make[1]: Entering directory '/home/oliver/repos/ergodox/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf715.dir/testCCompiler.c.obj
+/usr/bin/arm-none-eabi-gcc    -o CMakeFiles/cmTC_bf715.dir/testCCompiler.c.obj   -c /home/oliver/repos/ergodox/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C static library libcmTC_bf715.a
+/usr/bin/cmake -P CMakeFiles/cmTC_bf715.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf715.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-ar qc libcmTC_bf715.a  CMakeFiles/cmTC_bf715.dir/testCCompiler.c.obj
+/usr/bin/arm-none-eabi-ranlib libcmTC_bf715.a
+make[1]: Leaving directory '/home/oliver/repos/ergodox/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/oliver/repos/ergodox/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ed42a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ed42a.dir/build.make CMakeFiles/cmTC_ed42a.dir/build
+make[1]: Entering directory '/home/oliver/repos/ergodox/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ed42a.dir/CMakeCCompilerABI.c.obj
+/usr/bin/arm-none-eabi-gcc    -o CMakeFiles/cmTC_ed42a.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C static library libcmTC_ed42a.a
+/usr/bin/cmake -P CMakeFiles/cmTC_ed42a.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed42a.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-ar qc libcmTC_ed42a.a  CMakeFiles/cmTC_ed42a.dir/CMakeCCompilerABI.c.obj
+/usr/bin/arm-none-eabi-ranlib libcmTC_ed42a.a
+make[1]: Leaving directory '/home/oliver/repos/ergodox/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/oliver/repos/ergodox/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ed42a/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ed42a.dir/build.make CMakeFiles/cmTC_ed42a.dir/build]
+  ignore line: [make[1]: Entering directory '/home/oliver/repos/ergodox/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_ed42a.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/bin/arm-none-eabi-gcc    -o CMakeFiles/cmTC_ed42a.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C static library libcmTC_ed42a.a]
+  ignore line: [/usr/bin/cmake -P CMakeFiles/cmTC_ed42a.dir/cmake_clean_target.cmake]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed42a.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/arm-none-eabi-ar qc libcmTC_ed42a.a  CMakeFiles/cmTC_ed42a.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/bin/arm-none-eabi-ranlib libcmTC_ed42a.a]
+  ignore line: [make[1]: Leaving directory '/home/oliver/repos/ergodox/build/CMakeFiles/CMakeTmp']
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/oliver/repos/ergodox/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_880c5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_880c5.dir/build.make CMakeFiles/cmTC_880c5.dir/build
+make[1]: Entering directory '/home/oliver/repos/ergodox/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_880c5.dir/feature_tests.c.obj
+/usr/bin/arm-none-eabi-gcc   -std=c11 -o CMakeFiles/cmTC_880c5.dir/feature_tests.c.obj   -c /home/oliver/repos/ergodox/build/CMakeFiles/feature_tests.c
+Linking C static library libcmTC_880c5.a
+/usr/bin/cmake -P CMakeFiles/cmTC_880c5.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_880c5.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-ar qc libcmTC_880c5.a  CMakeFiles/cmTC_880c5.dir/feature_tests.c.obj
+/usr/bin/arm-none-eabi-ranlib libcmTC_880c5.a
+make[1]: Leaving directory '/home/oliver/repos/ergodox/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/oliver/repos/ergodox/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3d5bf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3d5bf.dir/build.make CMakeFiles/cmTC_3d5bf.dir/build
+make[1]: Entering directory '/home/oliver/repos/ergodox/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3d5bf.dir/feature_tests.c.obj
+/usr/bin/arm-none-eabi-gcc   -std=c99 -o CMakeFiles/cmTC_3d5bf.dir/feature_tests.c.obj   -c /home/oliver/repos/ergodox/build/CMakeFiles/feature_tests.c
+Linking C static library libcmTC_3d5bf.a
+/usr/bin/cmake -P CMakeFiles/cmTC_3d5bf.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d5bf.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-ar qc libcmTC_3d5bf.a  CMakeFiles/cmTC_3d5bf.dir/feature_tests.c.obj
+/usr/bin/arm-none-eabi-ranlib libcmTC_3d5bf.a
+make[1]: Leaving directory '/home/oliver/repos/ergodox/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/oliver/repos/ergodox/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_209c2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_209c2.dir/build.make CMakeFiles/cmTC_209c2.dir/build
+make[1]: Entering directory '/home/oliver/repos/ergodox/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_209c2.dir/feature_tests.c.obj
+/usr/bin/arm-none-eabi-gcc   -std=c90 -o CMakeFiles/cmTC_209c2.dir/feature_tests.c.obj   -c /home/oliver/repos/ergodox/build/CMakeFiles/feature_tests.c
+Linking C static library libcmTC_209c2.a
+/usr/bin/cmake -P CMakeFiles/cmTC_209c2.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_209c2.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-ar qc libcmTC_209c2.a  CMakeFiles/cmTC_209c2.dir/feature_tests.c.obj
+/usr/bin/arm-none-eabi-ranlib libcmTC_209c2.a
+make[1]: Leaving directory '/home/oliver/repos/ergodox/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros

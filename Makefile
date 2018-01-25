@@ -7,12 +7,12 @@ bootstrap:
 		arm-none-eabi-newlib dfu-util
 
 clean:
-	rm -rf ./Keyboards/ERGO-{L,R}
+	rm -rf ./Keyboards/linux-gnu.ERGO-{L,R}.gcc.make
 
 compile:
-	mkdir -p ./Keyboards/ERGO-{L,R}
-	cp ./layers/*.kll ./Keyboards/ERGO-L
-	cp ./layers/*.kll ./Keyboards/ERGO-R
+	mkdir -p ./Keyboards/linux-gnu.ERGO-{L,R}.gcc.make
+	cp ./layers/*.kll ./Keyboards/linux-gnu.ERGO-L.gcc.make
+	cp ./layers/*.kll ./Keyboards/linux-gnu.ERGO-R.gcc.make
 	cd ./Keyboards && ./ergodox.bash
 
 flash-left:
